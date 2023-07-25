@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Search By Country">
+		<classes>
+	      <class name="com.qa.api.tests.iTunesSearchByCountry"/>
+	    </classes>
+	</test>
+ 	<test name="Search By Term">
+		<classes>
+	      <class name="com.qa.api.tests.iTunesSearchByTerm"/>
+	    </classes>
+	</test>
+ 	<test name="Search By Media Type">
+		<classes>
+	      <class name="com.qa.api.tests.iTunesSearchByMediaType"/>
+	    </classes>
+	</test>
+ 	<test name="Search By Entity and Attribute">
+		<classes>
+	      <class name="com.qa.api.tests.iTunesSearchByEntityAndAttribute"/>
+	    </classes>
+	</test>
+	 	<test name="Search with Callback">
+		<classes>
+	      <class name="com.qa.api.tests.iTunesSearchWithCallBack"/>
+	    </classes>
+	</test>
+	<test name="Search with Limit">
+		<classes>
+	      <class name="com.qa.api.tests.iTunesSearchWithLimit"/>
+	    </classes>
+	</test>
+	<test name="Search By Language">
+		<classes>
+	      <class name="com.qa.api.tests.iTunesSearchByLanguage"/>
+	    </classes>
+	</test>
+	<test name="Search By Version">
+		<classes>
+	      <class name="com.qa.api.tests.iTunesSearchByVersion"/>
+	    </classes>
+	</test>
+	<test name="Search By Explicit Type">
+		<classes>
+	      <class name="com.qa.api.tests.iTunesSearchByExplicitType"/>
+	    </classes>
+	</test>
+		<test name="Search By All Params">
+		<classes>
+	      <class name="com.qa.api.tests.iTunesSearchAllParams"/>
+	    </classes>
+	</test>
+</suite> <!-- Suite -->
