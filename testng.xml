@@ -50,5 +50,10 @@
 		<classes>
 	      <class name="com.qa.api.tests.iTunesSearchAllParams"/>
 	    </classes>
+	</test>	
+	<test name="Verify Search Response">
+		<classes>
+	      <class name="com.qa.api.tests.iTunesSearchVerifyResponse"/>
+	    </classes>
 	</test>
 </suite> <!-- Suite -->

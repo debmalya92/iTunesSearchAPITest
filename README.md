@@ -35,7 +35,7 @@ Install Maven Library
 
 ## Execution
 
-- Total 20 test scenarios are covered to test the API and all are mentioned in test plan
-- Total 46 test cases will be executed to test Search API
-	- Passed 35 test cases and failed 11 with all test data
+- Total 29 test scenarios are covered to test the API and all are mentioned in test plan
+- Total 57 test cases will be executed to test Search API
+	- Passed 46 test cases and failed 11 with all test data
 	- 11 test cases are failed due to issues mentioned in the issue document (in resources folder)

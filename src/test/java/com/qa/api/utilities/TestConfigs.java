@@ -273,4 +273,24 @@ public class TestConfigs {
 		return returnObject;
 
 	}
+	
+	@DataProvider(name = "verifyReturnedKeys")
+	public Object[][] verifyReturnedKeys(){
+
+		return new Object[][]
+				{
+			{"See You Again", "US", "music", 1}
+				};
+	}
+	
+	@DataProvider(name = "verifySpecifiedValues")
+	public Object[][] verifySpecifiedValues(){
+
+		return new Object[][]
+				{
+			{"Jack Johnson", "album", 1},
+			{"Jack Johnson", "allArtist", 1},
+			{"Jack Johnson", "allTrack", 1},
+				};
+	}
 }
